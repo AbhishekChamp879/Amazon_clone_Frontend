@@ -132,6 +132,16 @@
     display: inline;
     cursor: pointer;
 }
+.panel-option-right{
+    cursor: pointer;
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    text-align: center;
+}
+.panel-option-right p:hover {
+    border: solid white 1.5px;
+}
 
 .panel-option p {
     display: inline;

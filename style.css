@@ -13,18 +13,12 @@
     justify-content: space-evenly;
 
 }
-
-.nav-logo {
-    height: 50px;
-    width: 100px;
+.nav-logo .logo-img {
+    max-height: 50px; /* Adjust height as needed */
+    width: 120px;
+    display: block;
 }
 
-.logo {
-    background-image: url("/Amazon clone website/AMAZON\ LOGO.jpeg");
-    background-size: cover;
-    height: 50px;
-    width: 100px;
-}
 
 .border {
     border: 1.5px solid transparent;

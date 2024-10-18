@@ -4,6 +4,17 @@
     border: border-box;
 }
 
+body {
+    background-color: #f2f2f2;
+}
+
+main{
+    width:83.4%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
 .navbar {
     padding: 0 0.9rem 0 0.9rem;
     height: 3.4rem;
@@ -198,11 +209,16 @@
 
 .hero-section {
     background-image: url(J24_P2_GW_PC_EventHero_BU_EToday_2x._CB545051050_.jpg);
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0),
+        rgb(0, 0, 0) 99%
+    ),url(J24_P2_GW_PC_EventHero_BU_EToday_2x._CB545051050_.jpg);
     background-size: cover;
-    height: 350px;
+    height: 600px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .hero-mess {
@@ -224,11 +240,14 @@
 }
 
 /* shop-section */
+.overlay {
+    position: relative;
+    margin-top: -20%;
+}
 
 .shop-section {
     display: flex;
     flex: wrap;
-    background-color: #330964d0;
     justify-content: space-evenly;
 }
 
@@ -255,6 +274,11 @@
 
 .box-content p {
     color: #007185;
+    font-size: smaller;
+}
+
+.box-content p:hover {
+    color: brown;
 }
 
 /* footer section */

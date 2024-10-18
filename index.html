@@ -12,16 +12,16 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar" role="navigation">
+    <header id="top">
+        <div class="navbar">
             <div class="nav-logo border">
                 <div class="logo">
-                    <img src="AMAZON LOGO.jpeg" alt="Amazon Company Logo" class="logo-img">
+                    <img src="pngimg.com - amazon_PNG11.png" alt="Company Logo" class="logo-img">
                 </div>
             </div>
 
             <div class="nav-address border">
-                <p class="add-first">Deliver to</p>
+                <p class="add-first">Deliver to User</p>
                 <div class="add-icon">
                     <i class="fa-solid fa-location-dot" aria-label="Location"></i>
                     <p class="add-second">India</p>
@@ -31,6 +31,13 @@
             <div class="nav-search">
                 <select class="search-select" aria-label="Category selection">
                     <option>All</option>
+                    <option>Arts and Crafts</option>
+                    <option>Automotive</option>
+                    <option>Beauty & Personal Care</option>
+                    <option>Books</option>
+                    <option>Fashion</option>
+                    <option>Mens</option>
+                    <option>Women</option>
                 </select>
                 <input placeholder="Search Amazon" class="search-input" aria-label="Search input">
                 <div class="search-icon">
@@ -38,19 +45,21 @@
                 </div>
             </div>
 
-            <div class="nav-sign border">
-                <p><span>Hello, sign in</span></p>
-                <p class="nav-second"><span>Account & Lists</span></p>
-            </div>
+            <div class="left-nav">
+                <div class="nav-sign border">
+                    <p><span>Hello, sign in</span></p>
+                    <p class="nav-second"><span>Account & Lists</span></p>
+                </div>
 
-            <div class="nav-return border">
-                <p><span>Returns</span></p>
-                <p class="nav-second"><span>& Orders</span></p>
-            </div>
+                <div class="nav-return border">
+                    <p><span>Returns</span></p>
+                    <p class="nav-second"><span>& orders</span></p>
+                </div>
 
-            <div class="nav-cart border">
-                <i class="fa-solid fa-cart-shopping" aria-label="Cart"></i>
-                <span>Cart</span>
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    cart
+                </div>
             </div>
 
         </nav>
@@ -61,15 +70,15 @@
                 <p>All</p>
             </div>
             <div class="panel-option">
-                <p>Today's Deals</p>
-                <p>Mobiles</p>
-                <p>Electronics</p>
-                <p>Home and Kitchen</p>
-                <p>Prime</p>
-                <p>Customer Service</p>
-                <p>Registry</p>
-                <p>Gift Cards</p>
-                <p>Sell</p>
+                <span>Today's Deals</span>
+                <span>Mobiles</span>
+                <span>Electronics</span>
+                <span>Home and Kitchen</span>
+                <span>Prime</span>
+                <span>Customer Service</span>
+                <span>Registry</span>
+                <span>Gift Cards</span>
+                <span>Sell</span>
             </div>
             <div class="panel-option-right">
                 <p>GREAT INDIAN FESTIVAL SHOP NOW</p>
@@ -85,73 +94,73 @@
             </div>
         </section>
 
-        <section class="shop-section">
-            <div class="box">
-                <div class="box-content">
-                    <h2>Health and Personal Care</h2>
-                    <div class="box-img" style="background-image: url('healthcare.jpeg'); background-size: cover; background-position: center;"></div>
-                    <p>See more</p>
-                </div>
+    <div class="shop-section">
+        <div class="box" onclick="window.location.href='./health.html'">
+            <div class="box-content">
+                <h2>Health and Personal Care</h2>
+                <div class="box-img" style="background-image: url('healthcare.jpeg');"></div>
+                <p>See more</a></p>
             </div>
-            <div class="box">
-                <div class="box-content">
-                    <h2>Toys under $25</h2>
-                    <div class="box-img" style="background-image: url('pic16.jpg'); background-size: cover; background-position: center;"></div>
-                    <p>See more</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-content">
-                    <h2>Shop activity trackers and smartwatches</h2>
-                    <div class="box-img" style="background-image: url('pic17.jpg'); background-size: cover; background-position: center;"></div>
-                    <p>See more</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-content">
-                    <h2>Fashion deals</h2>
-                    <div class="box-img" style="background-image: url('DRESS.jpg'); background-size: cover; background-position: center;"></div>
-                    <p>See more</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="shop-section">
-            <div class="box">
-                <div class="box-content">
-                    <h2>Home Decor</h2>
-                    <div class="box-img" style="background-image: url('decor.jpg'); background-size: cover; background-position: center;"></div>
-                    <p>See more</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-content">
-                    <h2>Beauty picks</h2>
-                    <div class="box-img" style="background-image: url('PIC4.jpeg'); background-size: cover; background-position: center;"></div>
-                    <p>See more</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-content">
-                    <h2>Electronic deals</h2>
-                    <div class="box-img" style="background-image: url('PIC3.jpeg'); background-size: cover; background-position: center;"></div>
-                    <p>See more</p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="box-content">
-                    <h2>Refresh your Space</h2>
-                    <div class="box-img" style="background-image: url('PIC.jpeg'); background-size: cover; background-position: center;"></div>
-                    <p>See more</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer role="contentinfo">
-        <div class="foot-panel1">
-            <a href="#top">Back to Top</a>
         </div>
+        <div class="box" onclick="window.location.href='./toys.html'">
+            <div class="box-content">
+                <h2>Toys under $25</h2>
+                <div class="box-img" style="background-image: url('pic16.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box" onclick="window.location.href='./watches.html'">
+            <div class="box-content">
+                <h2>Shop activity trackers and smartwatches</h2>
+                <div class="box-img" style="background-image: url('pic17.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box" onclick="window.location.href='./fashion.html'">
+            <div class="box-content">
+                <h2>Fashion deals</h2>
+                <div class="box-img" style="background-image: url('DRESS.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+    </div>
+    <div class="shop-section">
+        <div class="box" onclick="window.location.href='./homeDecor.html'">
+            <div class="box-content">
+                <h2>Home Decor</h2>
+                <div class="box-img" style="background-image: url('decor.jpg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box" onclick="window.location.href='./beautyProd.html'">
+            <div class="box-content">
+                <h2>Beauty picks</h2>
+                <div class="box-img" style="background-image: url('PIC4.jpeg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box" onclick="window.location.href='./electronic.html'">
+            <div class="box-content">
+                <h2>Electronic deals</h2>
+                <div class="box-img" style="background-image: url('PIC3.jpeg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class="box" onclick="window.location.href='./refreshSpace.html'">
+            <div class="box-content">
+                <h2>Refresh your Space</h2>
+                <div class="box-img" style="background-image: url('PIC.jpeg');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="#top">
+        <div class="foot-panel1">
+            <span  >Back to Top</span>
+        </div>
+    </a>
         <div class="foot-panel2">
             <ul>
                 <p>Get to Know Us</p>

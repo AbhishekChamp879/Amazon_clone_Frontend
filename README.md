@@ -18,8 +18,9 @@ We encourage developers and open-source enthusiasts to contribute to our project
 # How to Contribute 🌍
 Want to make a difference? Contributing to Amazon Clone Frontend is straightforward:
 1. **Fork & Star** ⭐ the repository to show your support.
-2. **Submit a Pull Request** 🔄 with your changes—whether it's fixing a bug or adding an exciting new feature.
-3. **Follow the Guidelines** 📜 to ensure that your PR aligns with our contribution standards.
+2. **Raise the issue** 
+3. **Submit a Pull Request** 🔄 with your changes—whether it's fixing a bug or adding an exciting new feature.
+4. **Follow the Guidelines** 📜 to ensure that your PR aligns with our contribution standards.
 
    
 

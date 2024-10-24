@@ -226,19 +226,26 @@
 /* shop-section */
 
 .shop-section {
-    display: flex;
-    flex: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
     background-color: #330964d0;
-    justify-content: space-evenly;
+    padding: 25px;
 }
 
 .box {
     height: 400px;
-    width: 23%;
+    min-width: 340px;
     background-color: white;
     padding: 20px 0px 15px;
-    margin-top: 15px;
-    cursor:pointer;
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.box h2{
+    font-size: 18px;
 }
 
 .box-img {
@@ -258,10 +265,6 @@
 }
 
 /* footer section */
-
-footer {
-    margin-top: 15px;
-}
 
 .foot-panel1 {
     background-color: #37475a;
@@ -337,4 +340,47 @@ ul a {
 .check{
     font-size: 0.8em;
     font-weight: 400;
+}
+
+/* Media Queries for responsiveness */
+
+/* For tablets (screens between 768px and 1024px) */
+@media (max-width: 1024px) {
+    .shop-section {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .box {
+        height: 300px;
+        min-width: 220px;
+    }
+
+    .box h2{
+        font-size: 14px;
+    }
+
+    .box-img {
+        height: 200px;
+    }
+}
+
+/* For mobile devices (screens less than 768px) */
+@media (max-width: 768px) {
+    .shop-section {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .box {
+        height: 300px;
+        min-width: 100%;
+    }
+
+    .box-img {
+        height: 200px;
+    }
+
+    .box-content {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
 }
